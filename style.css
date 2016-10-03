@@ -1,0 +1,153 @@
+html, body {
+  font-family: 'Nunito', cursive;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  background: white;
+  color: #d6195b;
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  top:0;
+}
+
+.header-title {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.nav {
+  display: inline-block;
+text-align: right;
+}
+
+.navbar-item {
+  display: inline;
+  margin-left: 20px;
+}
+
+.banner {
+  height: 200px;
+  background: #d6195b;
+  text-align: center;
+  padding: 50px;
+  margin-top: 65px;
+}
+
+.banner img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: grey;
+  border: 0;
+}
+
+.banner-title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.banner-subtitle {
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+    font-weight: 500;
+  font-size: 20px;
+}
+
+.main-homepage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-detail {
+
+}
+
+.article-card {
+  width: calc(33% - 40px);
+  padding: 10px;
+  justify-content: space-between;
+  background: #D9E1E8;
+  align-items: flex-end;
+  color: #074E65;
+  margin-top: 20px;
+    font-family: 'Nunito', cursive;
+}
+
+.article-card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.article-card-title {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.article-card p {
+  font-size: 12px;
+}
+
+.article-card a {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  background: #d6195b;
+  color: white;
+  text-decoration: none;
+}
+
+.article-list {
+  background: #D9E1E8;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.article-list-image {
+  width: 200px;
+  height: 200px;
+  background:#074E65;
+  border-radius: 300px;
+}
+
+.article-list-content {
+  width: calc(100% - 220px);
+  margin-left: 20px;
+}
+
+.article-categories {
+  display: inline-block;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 15px 0;
+  background: #D9E1E8;
+  text-align: center;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
